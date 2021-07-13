@@ -76,7 +76,7 @@ def send_echo(message):
 
     def schedule_for_bot():
         # schedule.every(10).seconds.do(job)
-        schedule.every().day.at("02:57").do(job)
+        schedule.every().day.at("08:00").do(job)
         # schedule.every().day.at("00:22").do(job)
         schedule.cancel_job(job)
 
